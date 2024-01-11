@@ -34,10 +34,10 @@ def send_email(message):
     host = "smtp.gmail.com"
     port = 465
 
-    username = "sanjave.singh25@gmail.com"
-    password = "srlshyykmgkvnxab"
+    username = "YOUR_EMAIL"
+    password = "YOUR_PASSWORD"
 
-    receiver = "sanjave.singh25@gmail.com"
+    receiver = "RECEIVER_EMAIL"
     subject = "Hey, new event was found!"
 
     email_message = f"Subject: {subject}\n\n{message}"  # Include the subject in the email content
